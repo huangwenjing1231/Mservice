@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: interview
+  cloud:
+    config:
+      uri: http://127.0.0.1:8083/
+      profile: prod
+      label: master
+server:
+  port: 8082
+logging:
+  file:
+    path: logs/

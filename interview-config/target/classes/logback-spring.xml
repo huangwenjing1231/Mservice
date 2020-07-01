@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--动态记载日志文件-->
+    <jmxConfigurator/>
+
+    <!--日志文件的基地址-->
+    <springProperty scope="context" name="log.home" source="logging.file.path"/>
+
+    <!--控制台输出-->
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="utf-8">
+            <Pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%thread] [%-5level] %logger %line - %msg %n</Pattern>
+        </encoder>
+    </appender>
+
+    <!--info输出-->
+    <appender name="infoAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${log.home}/info.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+        </rollingPolicy>
+        <encoder charset="utf-8">
+            <Pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%thread] %logger %line - %msg %n</Pattern>
+        </encoder>
+    </appender>
+
+    <!--error输出-->
+    <appender name="errorAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${log.home}/error.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+        </rollingPolicy>
+        <encoder charset="utf-8">
+            <Pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%thread] %logger %line - %msg %n</Pattern>
+        </encoder>
+    </appender>
+
+    <!--文件的默认的输出-->
+    <root level="info">
+        <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="infoAppender"/>
+        <appender-ref ref="errorAppender"/>
+    </root>
+
+</configuration>

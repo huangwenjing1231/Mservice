@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: interview-config
+server:
+  port: 8083
+logging:
+  file:
+    path: logs/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8081/eureka
+    register-with-eureka: true
+    fetch-registry: true

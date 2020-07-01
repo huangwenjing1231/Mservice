@@ -1,0 +1,241 @@
+[2020-06-25 14:15:44] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3510 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 14:15:44] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 14:15:45] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 14:15:45] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 14:15:45] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 14:15:45] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 14:15:45] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 14:15:45] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1003 ms 
+[2020-06-25 14:15:46] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 14:15:46] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 14:15:46] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 14:15:46] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 14:15:46] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 2.172 seconds (JVM running for 2.471) 
+[2020-06-25 17:02:04] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3696 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:02:04] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:02:06] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:02:06] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:02:06] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:02:06] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:02:07] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:02:07] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 2936 ms 
+[2020-06-25 17:02:08] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:02:08] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:02:08] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:02:08] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 17:02:08] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 524 - Attempting to connect to: [47.111.176.126:5672] 
+[2020-06-25 17:02:08] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 497 - Created new connection: rabbitConnectionFactory#2881ad47:0/SimpleConnection@48528634 [delegate=amqp://huangwj@47.111.176.126:5672/, localPort= 55681] 
+[2020-06-25 17:02:08] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 6.147 seconds (JVM running for 6.889) 
+[2020-06-25 17:02:22] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-25 17:02:22] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-25 17:02:22] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 7 ms 
+[2020-06-25 17:02:27] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.study.interview.rabbitmq.controller.RabbitmqController 37 - receive message [(Body:'[B@1d16541e(byte[3])' MessageProperties [headers={}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=exchange, receivedRoutingKey=routingKey, deliveryTag=1, consumerTag=amq.ctag-KsURMj6l0Bgw3cx5xyWLHQ, consumerQueue=queue])] 
+[2020-06-25 17:03:04] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3712 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:03:04] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:03:05] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:03:05] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:03:05] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:03:05] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:03:05] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:03:05] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1305 ms 
+[2020-06-25 17:03:06] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:03:06] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:03:06] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:03:06] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 17:03:06] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 524 - Attempting to connect to: [47.111.176.126:5672] 
+[2020-06-25 17:03:06] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 497 - Created new connection: rabbitConnectionFactory#4cb0a000:0/SimpleConnection@34d52ecd [delegate=amqp://huangwj@47.111.176.126:5672/, localPort= 55713] 
+[2020-06-25 17:03:06] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 3.048 seconds (JVM running for 3.762) 
+[2020-06-25 17:03:29] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3718 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:03:29] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:03:30] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:03:30] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:03:30] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:03:30] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:03:31] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:03:31] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1113 ms 
+[2020-06-25 17:03:31] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:03:31] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:03:31] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:03:31] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 17:03:31] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 524 - Attempting to connect to: [47.111.176.126:5672] 
+[2020-06-25 17:03:31] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 497 - Created new connection: rabbitConnectionFactory#c1fa7d4:0/SimpleConnection@26cb5207 [delegate=amqp://huangwj@47.111.176.126:5672/, localPort= 55717] 
+[2020-06-25 17:03:32] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 2.652 seconds (JVM running for 2.967) 
+[2020-06-25 17:03:36] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-25 17:03:36] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-25 17:03:36] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 4 ms 
+[2020-06-25 17:03:36] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.study.interview.rabbitmq.controller.RabbitmqController 38 - receive message [(Body:'123' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=exchange, receivedRoutingKey=routingKey, deliveryTag=1, consumerTag=amq.ctag--9WfMzEbSzPc0KxrzfvjIw, consumerQueue=queue])] 
+[2020-06-25 17:35:42] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3744 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:35:42] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:35:43] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:35:43] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:35:43] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:35:43] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:35:43] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:35:43] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1178 ms 
+[2020-06-25 17:35:44] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:35:44] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:35:44] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:35:44] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 17:35:44] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 524 - Attempting to connect to: [47.111.176.126:5672] 
+[2020-06-25 17:35:44] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 497 - Created new connection: rabbitConnectionFactory#2f1ea80d:0/SimpleConnection@e5cbff2 [delegate=amqp://huangwj@47.111.176.126:5672/, localPort= 55766] 
+[2020-06-25 17:35:45] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 3.022 seconds (JVM running for 3.365) 
+[2020-06-25 17:35:58] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-25 17:35:58] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-25 17:35:58] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms 
+[2020-06-25 17:35:58] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.study.interview.rabbitmq.controller.RabbitmqController 38 - receive message [(Body:'123' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=exchange, receivedRoutingKey=routingKey, deliveryTag=1, consumerTag=amq.ctag-P5bWpCy0AMfM31KJ4cxZFQ, consumerQueue=queue])] 
+[2020-06-25 17:36:32] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3753 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:36:32] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:36:33] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:36:33] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:36:33] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:36:33] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:36:33] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:36:33] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1000 ms 
+[2020-06-25 17:36:33] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:36:33] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:36:33] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:36:33] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 17:36:33] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 524 - Attempting to connect to: [47.111.176.126:5672] 
+[2020-06-25 17:36:33] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 497 - Created new connection: rabbitConnectionFactory#15f2eda3:0/SimpleConnection@38d17d80 [delegate=amqp://huangwj@47.111.176.126:5672/, localPort= 55773] 
+[2020-06-25 17:36:34] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 2.665 seconds (JVM running for 3.018) 
+[2020-06-25 17:36:41] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-25 17:36:41] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-25 17:36:41] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms 
+[2020-06-25 17:36:41] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.study.interview.rabbitmq.controller.RabbitmqController 38 - receive message [(Body:'123' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=exchange, receivedRoutingKey=routingKey, deliveryTag=1, consumerTag=amq.ctag-QL0WTkUt-ltu1C2sa5vpCg, consumerQueue=queue])] 
+[2020-06-25 17:37:22] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3766 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:37:22] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:37:23] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:37:23] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:37:23] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:37:23] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:37:23] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:37:23] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1201 ms 
+[2020-06-25 17:37:24] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:37:24] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:37:24] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:37:24] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 17:37:24] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 524 - Attempting to connect to: [47.111.176.126:5672] 
+[2020-06-25 17:37:24] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 497 - Created new connection: rabbitConnectionFactory#3b46dd8:0/SimpleConnection@3c3a0032 [delegate=amqp://huangwj@47.111.176.126:5672/, localPort= 55782] 
+[2020-06-25 17:37:25] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 2.945 seconds (JVM running for 3.261) 
+[2020-06-25 17:39:18] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-25 17:39:18] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-25 17:39:18] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 18 ms 
+[2020-06-25 17:39:18] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.study.interview.rabbitmq.controller.RabbitmqController 38 - receive message [(Body:'123' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=exchange, receivedRoutingKey=routingKey, deliveryTag=1, consumerTag=amq.ctag-D2-bAsTqVtYcXocHbuZWUQ, consumerQueue=queue])] 
+[2020-06-25 17:39:47] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3789 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:39:47] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:39:48] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:39:48] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:39:48] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:39:48] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:39:48] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:39:48] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1124 ms 
+[2020-06-25 17:39:49] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:39:49] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:39:49] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:39:49] [main] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer 1231 - Shutdown ignored - container is not active already 
+[2020-06-25 17:39:49] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:39:49] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Pausing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:39:49] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-06-25 17:39:49] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Stopping ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:39:49] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Destroying ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:39:49] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-06-25 17:40:22] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3797 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:40:22] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:40:23] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:40:23] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:40:23] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:40:23] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:40:24] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:40:24] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1132 ms 
+[2020-06-25 17:40:24] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:40:24] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:40:24] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:40:24] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 17:40:24] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 524 - Attempting to connect to: [47.111.176.126:5672] 
+[2020-06-25 17:40:25] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 497 - Created new connection: rabbitConnectionFactory#9a6fbc0:0/SimpleConnection@654c7d2d [delegate=amqp://huangwj@47.111.176.126:5672/, localPort= 55895] 
+[2020-06-25 17:40:25] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 2.906 seconds (JVM running for 3.252) 
+[2020-06-25 17:40:31] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-25 17:40:31] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-25 17:40:31] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 7 ms 
+[2020-06-25 17:40:31] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.study.interview.rabbitmq.controller.RabbitmqController 38 - receive message [(Body:'123' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=exchange, receivedRoutingKey=routingKey, deliveryTag=1, consumerTag=amq.ctag-vQ3y5MbFHykXGxucmBMx9g, consumerQueue=queue])] 
+[2020-06-25 17:41:19] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3808 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:41:19] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:41:20] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:41:20] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:41:20] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:41:20] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:41:20] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:41:20] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1096 ms 
+[2020-06-25 17:41:21] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:41:21] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:41:21] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:41:21] [main] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer 1231 - Shutdown ignored - container is not active already 
+[2020-06-25 17:41:21] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:41:21] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Pausing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:41:21] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-06-25 17:41:21] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Stopping ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:41:21] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Destroying ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:41:21] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-06-25 17:41:37] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3814 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:41:37] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:41:38] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:41:38] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:41:38] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:41:38] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:41:38] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:41:38] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1047 ms 
+[2020-06-25 17:41:38] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:41:38] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:41:38] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:41:38] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 17:41:38] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 524 - Attempting to connect to: [47.111.176.126:5672] 
+[2020-06-25 17:41:38] [main] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 497 - Created new connection: rabbitConnectionFactory#6ac0b715:0/SimpleConnection@60bbacfc [delegate=amqp://huangwj@47.111.176.126:5672/, localPort= 55904] 
+[2020-06-25 17:41:39] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 2.643 seconds (JVM running for 2.952) 
+[2020-06-25 17:41:42] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-25 17:41:42] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-25 17:41:42] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms 
+[2020-06-25 17:41:42] [http-nio-8080-exec-1] com.study.interview.rabbitmq.controller.RabbitmqController 32 - correlationData:CorrelationData [id=8c72ae2d5a184ade9dfd5c1de4af3957] 
+[2020-06-25 17:41:42] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.study.interview.rabbitmq.controller.RabbitmqController 39 - receive message [(Body:'123' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=exchange, receivedRoutingKey=routingKey, deliveryTag=1, consumerTag=amq.ctag-JFS8uAgIYa6Mh8E4EOM5uA, consumerQueue=queue])] 
+[2020-06-25 17:45:56] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3860 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:45:56] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:45:57] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:45:57] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:45:57] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:45:57] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:45:57] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:45:57] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1153 ms 
+[2020-06-25 17:45:57] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:45:57] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:45:57] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:45:58] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 17:45:58] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 2.413 seconds (JVM running for 2.732) 
+[2020-06-25 17:46:07] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-25 17:46:07] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-25 17:46:07] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms 
+[2020-06-25 17:46:07] [http-nio-8080-exec-1] com.study.interview.rabbitmq.controller.RabbitmqController 32 - correlationData:CorrelationData [id=0ba97b17637e4c09bd8b406c6de81a36] 
+[2020-06-25 17:46:07] [http-nio-8080-exec-1] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 524 - Attempting to connect to: [47.111.176.126:5672] 
+[2020-06-25 17:46:07] [http-nio-8080-exec-1] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 497 - Created new connection: rabbitConnectionFactory#58f07f02:0/SimpleConnection@6b117090 [delegate=amqp://huangwj@47.111.176.126:5672/, localPort= 56021] 
+[2020-06-25 17:46:57] [main] com.study.interview.rabbitmq.RabbitmqApplication 55 - Starting RabbitmqApplication on alicedeMacBook-Air.local with PID 3870 (/Users/alice/Downloads/git/code/interview/interview-rabbitmq/target/classes started by alice in /Users/alice/Downloads/git/code/interview/interview-rabbitmq) 
+[2020-06-25 17:46:57] [main] com.study.interview.rabbitmq.RabbitmqApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-25 17:46:58] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8080 (http) 
+[2020-06-25 17:46:58] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:46:58] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-25 17:46:58] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-25 17:46:58] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-25 17:46:58] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1148 ms 
+[2020-06-25 17:46:59] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-25 17:46:59] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-25 17:46:59] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"] 
+[2020-06-25 17:46:59] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8080 (http) with context path '' 
+[2020-06-25 17:46:59] [main] com.study.interview.rabbitmq.RabbitmqApplication 61 - Started RabbitmqApplication in 2.485 seconds (JVM running for 2.861) 
+[2020-06-25 17:47:03] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-25 17:47:03] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-25 17:47:03] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms 
+[2020-06-25 17:47:03] [http-nio-8080-exec-1] com.study.interview.rabbitmq.controller.RabbitmqController 32 - correlationData:CorrelationData [id=6e6e2483782c4cefbbd10d97d8475d98] 
+[2020-06-25 17:47:03] [http-nio-8080-exec-1] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 524 - Attempting to connect to: [47.111.176.126:5672] 
+[2020-06-25 17:47:03] [http-nio-8080-exec-1] org.springframework.amqp.rabbit.connection.CachingConnectionFactory 497 - Created new connection: rabbitConnectionFactory#6482eef:0/SimpleConnection@66d2cddd [delegate=amqp://huangwj@47.111.176.126:5672/, localPort= 56025] 
+[2020-06-25 17:47:03] [rabbitConnectionFactory1] com.study.interview.rabbitmq.config.RabbitmqConfig 54 - Confirm: {}, ack={} 

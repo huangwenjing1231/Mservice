@@ -1,0 +1,415 @@
+[2020-06-30 11:39:15] [main] com.study.interview.eureka.EurekaServerApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:39:18] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=3c2412e0-deb3-3c30-8218-138ab1aaef1c 
+[2020-06-30 11:39:19] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8081 (http) 
+[2020-06-30 11:39:19] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"] 
+[2020-06-30 11:39:19] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:39:19] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:39:20] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:39:20] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 4400 ms 
+[2020-06-30 11:39:20] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:39:20] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@49122b8f 
+[2020-06-30 11:39:21] [main] com.sun.jersey.server.impl.application.WebApplicationImpl 815 - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM' 
+[2020-06-30 11:39:21] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:39:21] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:39:22] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:39:22] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:39:23] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:39:23] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:39:25] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593488365850 with initial instances count: 0 
+[2020-06-30 11:39:25] [main] com.netflix.eureka.DefaultEurekaServerContext 66 - Initializing ... 
+[2020-06-30 11:39:25] [main] com.netflix.eureka.cluster.PeerEurekaNodes 187 - Adding new peer nodes [http://127.0.0.1:8081/eureka/] 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:39:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:39:26] [main] com.netflix.eureka.cluster.PeerEurekaNodes 109 - Replica node URL:  http://127.0.0.1:8081/eureka/ 
+[2020-06-30 11:39:26] [main] com.netflix.eureka.registry.AbstractInstanceRegistry 153 - Finished initializing remote region registries. All known remote regions: [] 
+[2020-06-30 11:39:26] [main] com.netflix.eureka.DefaultEurekaServerContext 73 - Initialized 
+[2020-06-30 11:39:26] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:39:26] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-EUREKA-SERVER with eureka with status UP 
+[2020-06-30 11:39:26] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593488366146, current=UP, previous=STARTING] 
+[2020-06-30 11:39:26] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-EUREKA-SERVER/192.168.31.179:interview-eureka-server:8081: registering service... 
+[2020-06-30 11:39:26] [Thread-407] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap 110 - Setting the eureka configuration.. 
+[2020-06-30 11:39:26] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"] 
+[2020-06-30 11:39:26] [Thread-407] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap 115 - Eureka data center value eureka.datacenter is not set, defaulting to default 
+[2020-06-30 11:39:26] [Thread-407] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap 129 - Eureka environment value eureka.environment is not set, defaulting to test 
+[2020-06-30 11:39:26] [Thread-407] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap 188 - isAws returned false 
+[2020-06-30 11:39:26] [Thread-407] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap 153 - Initialized server context 
+[2020-06-30 11:39:26] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8081 (http) with context path '' 
+[2020-06-30 11:39:26] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8081 
+[2020-06-30 11:39:26] [main] com.study.interview.eureka.EurekaServerApplication 61 - Started EurekaServerApplication in 13.026 seconds (JVM running for 14.144) 
+[2020-06-30 11:39:26] [http-nio-8081-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-30 11:39:26] [http-nio-8081-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-30 11:39:26] [http-nio-8081-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 22 ms 
+[2020-06-30 11:39:26] [http-nio-8081-exec-1] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-EUREKA-SERVER/192.168.31.179:interview-eureka-server:8081 with status UP (replication=false) 
+[2020-06-30 11:39:26] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-EUREKA-SERVER/192.168.31.179:interview-eureka-server:8081 - registration status: 204 
+[2020-06-30 11:39:27] [http-nio-8081-exec-2] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-EUREKA-SERVER/192.168.31.179:interview-eureka-server:8081 with status UP (replication=true) 
+[2020-06-30 11:41:26] [Thread-407] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 242 - Got 1 instances from neighboring DS node 
+[2020-06-30 11:41:26] [Thread-407] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 243 - Renew threshold is: 1 
+[2020-06-30 11:41:26] [Thread-407] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 254 - Changing status to UP 
+[2020-06-30 11:41:26] [Thread-407] org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration 72 - Started Eureka Server 
+[2020-06-30 11:42:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 11:42:33] [http-nio-8081-exec-3] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:42:33] [http-nio-8081-exec-5] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:43:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 11:44:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:44:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 11:44:39] [http-nio-8081-exec-6] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:44:40] [http-nio-8081-exec-8] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:45:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 11:45:34] [http-nio-8081-exec-9] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:45:34] [http-nio-8081-exec-7] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:45:37] [http-nio-8081-exec-1] com.netflix.eureka.registry.AbstractInstanceRegistry 328 - Cancelled instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 (replication=false) 
+[2020-06-30 11:45:37] [http-nio-8081-exec-10] com.netflix.eureka.resources.InstanceResource 288 - Not Found (Cancel): INTERVIEW-ERUEKA-CLIENT - 192.168.31.179:interview-erueka-client:8082 
+[2020-06-30 11:45:39] [http-nio-8081-exec-4] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:45:40] [http-nio-8081-exec-6] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:46:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 11:46:59] [http-nio-8081-exec-5] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:46:59] [http-nio-8081-exec-10] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:47:02] [http-nio-8081-exec-2] com.netflix.eureka.registry.AbstractInstanceRegistry 328 - Cancelled instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 (replication=false) 
+[2020-06-30 11:47:02] [http-nio-8081-exec-4] com.netflix.eureka.resources.InstanceResource 288 - Not Found (Cancel): INTERVIEW-ERUEKA-CLIENT - 192.168.31.179:interview-erueka-client:8082 
+[2020-06-30 11:47:09] [http-nio-8081-exec-9] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:47:10] [http-nio-8081-exec-7] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:47:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 11:47:50] [http-nio-8081-exec-4] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:47:51] [http-nio-8081-exec-6] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:48:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 11:49:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:49:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 11:50:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 11:51:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 11:52:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 11:53:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 11:53:41] [http-nio-8081-exec-10] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:53:41] [http-nio-8081-exec-2] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:54:26] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 11:54:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:54:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 11:54:51] [http-nio-8081-exec-3] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:54:51] [http-nio-8081-exec-6] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:54:54] [http-nio-8081-exec-8] com.netflix.eureka.registry.AbstractInstanceRegistry 328 - Cancelled instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 (replication=false) 
+[2020-06-30 11:54:54] [http-nio-8081-exec-1] com.netflix.eureka.resources.InstanceResource 288 - Not Found (Cancel): INTERVIEW-ERUEKA-CLIENT - 192.168.31.179:interview-erueka-client:8082 
+[2020-06-30 11:55:24] [http-nio-8081-exec-3] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:55:24] [http-nio-8081-exec-6] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:55:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 11:56:26] [http-nio-8081-exec-1] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:56:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 11:56:26] [http-nio-8081-exec-7] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:57:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 11:57:26] [http-nio-8081-exec-5] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 11:57:27] [http-nio-8081-exec-2] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 11:58:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 11:59:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:59:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:00:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 12:01:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 12:02:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 12:03:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:04:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:04:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:05:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 12:06:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 12:07:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:08:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 12:09:26] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 12:09:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:09:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 12:10:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 12:11:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:12:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:13:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 12:14:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:14:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:15:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 12:16:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 12:17:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 12:18:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:19:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:19:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 6ms 
+[2020-06-30 12:20:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 10ms 
+[2020-06-30 12:21:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 12:22:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 12:23:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 10ms 
+[2020-06-30 12:24:26] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 12:24:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:24:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 12:25:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:26:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 6ms 
+[2020-06-30 12:27:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 12:28:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 9ms 
+[2020-06-30 12:29:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:29:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:30:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 12:31:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 12:32:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:33:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 12:34:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:34:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 12:35:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:36:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:37:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 12:38:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 6ms 
+[2020-06-30 12:39:26] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 12:39:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:39:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 12:40:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 10ms 
+[2020-06-30 12:41:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 10ms 
+[2020-06-30 12:42:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 12:43:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 12:44:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:44:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 12:45:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 12:46:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 8ms 
+[2020-06-30 12:47:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 12:48:26] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 6ms 
+[2020-06-30 13:57:54] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 13:57:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 9ms 
+[2020-06-30 13:57:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 618 - Evicting 1 items (expired=2, evictionLimit=1) 
+[2020-06-30 13:57:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 328 - Cancelled instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 (replication=false) 
+[2020-06-30 13:57:56] [http-nio-8081-exec-9] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 13:57:56] [http-nio-8081-exec-1] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 13:58:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 13:59:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 14:00:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 14:01:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:02:54] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 14:02:54] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:02:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:03:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 14:04:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:05:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:06:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:07:54] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:07:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:08:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:09:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:10:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 14:11:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 14:12:54] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:12:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:13:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 14:14:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 14:15:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:16:54] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 14:17:54] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 14:17:54] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:17:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 14:18:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 14:19:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 14:20:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 14:21:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:22:54] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:22:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:23:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 14:24:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 14:25:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 14:26:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 14:27:54] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:27:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 14:28:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 14:29:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 7ms 
+[2020-06-30 14:30:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 7ms 
+[2020-06-30 14:31:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 7ms 
+[2020-06-30 14:32:54] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 14:32:54] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:32:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 9ms 
+[2020-06-30 14:33:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 10ms 
+[2020-06-30 14:34:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 9ms 
+[2020-06-30 14:35:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 7ms 
+[2020-06-30 14:36:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 9ms 
+[2020-06-30 14:37:54] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:37:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 8ms 
+[2020-06-30 14:38:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 14:39:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 9ms 
+[2020-06-30 14:40:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 14:41:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 14:42:54] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:42:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 14:43:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 14:44:55] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 17:00:20] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 8ms 
+[2020-06-30 17:01:20] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 17:02:19] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 17:02:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 17:02:20] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 20:48:36] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 21633ms 
+[2020-06-30 20:48:37] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 618 - Evicting 1 items (expired=2, evictionLimit=1) 
+[2020-06-30 20:48:37] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 328 - Cancelled instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 (replication=false) 
+[2020-06-30 20:48:37] [http-nio-8081-exec-4] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 20:48:37] [http-nio-8081-exec-2] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 20:55:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 20:55:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 618 - Evicting 1 items (expired=2, evictionLimit=1) 
+[2020-06-30 20:55:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 328 - Cancelled instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 (replication=false) 
+[2020-06-30 20:55:42] [http-nio-8081-exec-6] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=false) 
+[2020-06-30 20:55:43] [http-nio-8081-exec-10] com.netflix.eureka.registry.AbstractInstanceRegistry 266 - Registered instance INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 with status UP (replication=true) 
+[2020-06-30 20:56:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 20:57:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 20:58:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 20:58:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 20:59:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:00:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 21:01:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:02:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:03:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:03:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 21:04:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:05:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:06:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:07:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:08:19] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 21:08:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:08:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 21:09:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 21:10:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:11:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 21:12:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:13:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:13:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:14:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 21:15:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:16:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 21:17:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:18:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:18:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:19:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:20:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:21:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:22:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 21:23:19] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 21:23:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:23:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:24:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:25:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:26:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:27:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:28:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:28:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 21:29:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:30:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:31:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 21:32:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 21:33:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:33:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:34:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:35:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:36:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:37:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:38:19] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 21:38:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:38:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:39:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 21:40:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 21:41:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 21:42:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:43:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:43:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:44:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:45:41] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:46:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 21:47:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 21:48:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:48:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 21:49:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 21:50:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 21:51:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:52:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:53:19] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 21:53:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:53:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 21:54:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 21:55:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:56:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 21:57:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 21:58:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:58:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 21:59:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 22:00:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 22:01:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 22:02:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 22:03:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:03:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 22:04:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 22:05:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 22:06:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 22:07:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 22:08:19] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 22:08:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:08:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 22:09:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 22:10:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 22:11:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 22:12:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 22:13:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:13:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 22:14:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 22:15:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 22:16:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 10ms 
+[2020-06-30 22:17:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 22:18:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:18:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 8ms 
+[2020-06-30 22:19:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 22:20:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 6ms 
+[2020-06-30 22:21:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 9ms 
+[2020-06-30 22:22:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 8ms 
+[2020-06-30 22:23:19] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 22:23:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:23:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 22:24:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 22:25:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 22:26:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 22:27:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 22:28:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:28:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 22:29:42] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 7ms 
+[2020-06-30 22:44:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 8ms 
+[2020-06-30 22:45:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 22:46:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 22:46:52] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:47:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 22:48:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 22:49:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 22:50:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 22:51:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 22:51:52] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 22:51:52] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:52:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 22:53:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 22:54:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 22:55:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 22:56:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 22:56:52] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:57:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 22:58:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 22:59:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 23:00:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 23:01:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 23:01:52] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 23:02:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 1ms 
+[2020-06-30 23:03:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 23:04:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 23:05:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 23:06:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 23:06:52] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl 534 - Current renewal threshold is : 3 
+[2020-06-30 23:06:52] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 23:07:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 
+[2020-06-30 23:08:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 23:09:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 23:10:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 23:11:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 3ms 
+[2020-06-30 23:11:52] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 23:12:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 23:13:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 23:14:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 5ms 
+[2020-06-30 23:15:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 4ms 
+[2020-06-30 23:16:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 0ms 
+[2020-06-30 23:16:52] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 23:17:15] [Eureka-EvictionTimer] com.netflix.eureka.registry.AbstractInstanceRegistry 1247 - Running the evict task with compensationTime 2ms 

@@ -1,0 +1,110 @@
+[2020-07-02 01:31:56] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 249 - Fetching config from server at : http://localhost:8888 
+[2020-07-02 01:31:57] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 273 - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available 
+[2020-07-02 01:31:57] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 01:31:58] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=9945932d-cd8d-3fa9-b51e-14bad26f0013 
+[2020-07-02 01:31:58] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.EurekaClientApplication$ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-07-02 01:31:58] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-07-02 01:31:58] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-07-02 01:31:58] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 01:31:58] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 01:31:58] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 01:31:58] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1796 ms 
+[2020-07-02 01:31:59] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 01:31:59] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@b52b755 
+[2020-07-02 01:31:59] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-07-02 01:31:59] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-07-02 01:36:27] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 249 - Fetching config from server at : http://localhost:8888 
+[2020-07-02 01:36:27] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 273 - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available 
+[2020-07-02 01:36:27] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 01:36:28] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=9945932d-cd8d-3fa9-b51e-14bad26f0013 
+[2020-07-02 01:36:29] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.EurekaClientApplication$ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-07-02 01:36:29] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-07-02 01:36:29] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-07-02 01:36:29] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 01:36:29] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 01:36:29] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 01:36:29] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1566 ms 
+[2020-07-02 01:36:29] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 01:36:29] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@a451491 
+[2020-07-02 01:36:29] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-07-02 01:36:30] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-07-02 01:37:51] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 249 - Fetching config from server at : http://localhost:8888 
+[2020-07-02 01:37:51] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 273 - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available 
+[2020-07-02 01:37:51] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 01:37:52] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=fe8ff44f-31fc-31f1-ae67-2afa5aff6e35 
+[2020-07-02 01:37:52] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.EurekaClientApplication$ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-07-02 01:37:53] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-07-02 01:37:53] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-07-02 01:37:53] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 01:37:53] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 01:37:53] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 01:37:53] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1701 ms 
+[2020-07-02 01:37:53] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 01:37:53] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@181b8c4b 
+[2020-07-02 01:37:53] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-07-02 01:37:53] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-07-02 01:39:34] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 249 - Fetching config from server at : http://localhost:8888 
+[2020-07-02 01:39:34] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 273 - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available 
+[2020-07-02 01:39:34] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 01:39:35] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=fe8ff44f-31fc-31f1-ae67-2afa5aff6e35 
+[2020-07-02 01:39:35] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.EurekaClientApplication$ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-07-02 01:39:36] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-07-02 01:39:36] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-07-02 01:39:36] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 01:39:36] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 01:39:36] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 01:39:36] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1627 ms 
+[2020-07-02 01:39:36] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 01:39:36] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@118ffcfd 
+[2020-07-02 01:39:36] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-07-02 01:39:36] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-07-02 01:40:32] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 249 - Fetching config from server at : http://localhost:8888 
+[2020-07-02 01:40:32] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 273 - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available 
+[2020-07-02 01:40:32] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 01:40:33] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=41c2d117-e1a5-33dd-8bd3-021c64cfeaa7 
+[2020-07-02 01:40:34] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-07-02 01:40:34] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-07-02 01:40:34] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 01:40:34] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 01:40:34] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 01:40:34] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1518 ms 
+[2020-07-02 01:40:34] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-07-02 01:40:34] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-07-02 01:40:52] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 249 - Fetching config from server at : http://localhost:8888 
+[2020-07-02 01:40:52] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 273 - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available 
+[2020-07-02 01:40:52] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 01:40:53] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=41c2d117-e1a5-33dd-8bd3-021c64cfeaa7 
+[2020-07-02 01:40:53] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-07-02 01:40:53] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-07-02 01:40:53] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 01:40:53] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 01:40:53] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 01:40:53] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1161 ms 
+[2020-07-02 01:40:54] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-07-02 01:40:54] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-07-02 01:43:14] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 249 - Fetching config from server at : http://localhost:8888 
+[2020-07-02 01:43:15] [main] org.springframework.cloud.config.client.ConfigServicePropertySourceLocator 273 - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available 
+[2020-07-02 01:43:15] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 01:43:15] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=6f6415d9-2420-3331-8b1b-4db10134578d 
+[2020-07-02 01:43:16] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-07-02 01:43:16] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-07-02 01:43:16] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 01:43:16] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 01:43:16] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 01:43:16] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1153 ms 
+[2020-07-02 01:43:16] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-07-02 01:43:16] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 

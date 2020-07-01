@@ -1,0 +1,233 @@
+[2020-07-02 00:47:44] [main] com.study.interview.ConfigServerApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 00:47:46] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=d71406ae-3b98-321b-8f37-36327de9d3ab 
+[2020-07-02 00:47:46] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8083 (http) 
+[2020-07-02 00:47:46] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8083"] 
+[2020-07-02 00:47:46] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 00:47:46] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 00:47:46] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 00:47:46] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 2041 ms 
+[2020-07-02 00:47:46] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 00:47:46] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1ab5f08a 
+[2020-07-02 00:47:47] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-07-02 00:47:47] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-07-02 00:48:38] [main] com.study.interview.ConfigServerApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 00:48:39] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=d71406ae-3b98-321b-8f37-36327de9d3ab 
+[2020-07-02 00:48:40] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8083 (http) 
+[2020-07-02 00:48:40] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8083"] 
+[2020-07-02 00:48:40] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 00:48:40] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 00:48:40] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 00:48:40] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 2039 ms 
+[2020-07-02 00:48:40] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 00:48:40] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@68868328 
+[2020-07-02 00:48:40] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-07-02 00:48:40] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-07-02 00:51:13] [main] com.study.interview.ConfigServerApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 00:51:15] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=d71406ae-3b98-321b-8f37-36327de9d3ab 
+[2020-07-02 00:51:15] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8083 (http) 
+[2020-07-02 00:51:15] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8083"] 
+[2020-07-02 00:51:15] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 00:51:15] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 00:51:16] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 00:51:16] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 2278 ms 
+[2020-07-02 00:51:16] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 00:51:16] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@38b8b6c0 
+[2020-07-02 00:51:16] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 00:51:16] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-07-02 00:51:18] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-07-02 00:51:18] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593622278728 with initial instances count: 1 
+[2020-07-02 00:51:18] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-CONFIG with eureka with status UP 
+[2020-07-02 00:51:18] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593622278735, current=UP, previous=STARTING] 
+[2020-07-02 00:51:18] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-CONFIG/192.168.31.179:interview-config:8083: registering service... 
+[2020-07-02 00:51:18] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8083"] 
+[2020-07-02 00:51:18] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8083 (http) with context path '' 
+[2020-07-02 00:51:18] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8083 
+[2020-07-02 00:51:18] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-CONFIG/192.168.31.179:interview-config:8083 - registration status: 204 
+[2020-07-02 00:51:18] [main] com.study.interview.ConfigServerApplication 61 - Started ConfigServerApplication in 6.719 seconds (JVM running for 7.235) 
+[2020-07-02 00:56:18] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 00:57:12] [main] com.study.interview.ConfigServerApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 00:57:13] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=d71406ae-3b98-321b-8f37-36327de9d3ab 
+[2020-07-02 00:57:13] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8083 (http) 
+[2020-07-02 00:57:13] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8083"] 
+[2020-07-02 00:57:13] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 00:57:13] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 00:57:13] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 00:57:13] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1585 ms 
+[2020-07-02 00:57:13] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 00:57:13] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2f4c2cd4 
+[2020-07-02 00:57:13] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 00:57:14] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-07-02 00:57:15] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-07-02 00:57:15] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593622635637 with initial instances count: 2 
+[2020-07-02 00:57:15] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-CONFIG with eureka with status UP 
+[2020-07-02 00:57:15] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593622635641, current=UP, previous=STARTING] 
+[2020-07-02 00:57:15] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-CONFIG/192.168.31.179:interview-config:8083: registering service... 
+[2020-07-02 00:57:15] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8083"] 
+[2020-07-02 00:57:15] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-CONFIG/192.168.31.179:interview-config:8083 - registration status: 204 
+[2020-07-02 00:57:15] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8083 (http) with context path '' 
+[2020-07-02 00:57:15] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8083 
+[2020-07-02 00:57:15] [main] com.study.interview.ConfigServerApplication 61 - Started ConfigServerApplication in 4.722 seconds (JVM running for 5.163) 
+[2020-07-02 00:57:42] [http-nio-8083-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-07-02 00:57:42] [http-nio-8083-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-07-02 00:57:42] [http-nio-8083-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms 
+[2020-07-02 00:57:50] [http-nio-8083-exec-1] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-2562552613670034344/interview-repos/interview-config.yml 
+[2020-07-02 00:57:50] [http-nio-8083-exec-1] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-2562552613670034344/interview-repos/application.yml 
+[2020-07-02 00:58:06] [http-nio-8083-exec-3] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-2562552613670034344/interview-repos/interview-config.yml 
+[2020-07-02 00:58:06] [http-nio-8083-exec-3] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-2562552613670034344/interview-repos/application.yml 
+[2020-07-02 01:02:15] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 01:03:06] [http-nio-8083-exec-1] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-2562552613670034344/interview-repos/interview-config.yml 
+[2020-07-02 01:03:06] [http-nio-8083-exec-1] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-2562552613670034344/interview-repos/application.yml 
+[2020-07-02 01:03:12] [http-nio-8083-exec-2] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-2562552613670034344/interview-repos/interview-config.yml 
+[2020-07-02 01:03:12] [http-nio-8083-exec-2] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-2562552613670034344/interview-repos/application.yml 
+[2020-07-02 01:06:15] [main] com.study.interview.ConfigServerApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 01:06:17] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=d71406ae-3b98-321b-8f37-36327de9d3ab 
+[2020-07-02 01:06:17] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8083 (http) 
+[2020-07-02 01:06:17] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8083"] 
+[2020-07-02 01:06:17] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 01:06:17] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 01:06:17] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 01:06:17] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1630 ms 
+[2020-07-02 01:06:17] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 01:06:17] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@31ddb930 
+[2020-07-02 01:06:17] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 01:06:18] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-07-02 01:06:19] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-07-02 01:06:19] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593623179698 with initial instances count: 2 
+[2020-07-02 01:06:19] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-CONFIG with eureka with status UP 
+[2020-07-02 01:06:19] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593623179701, current=UP, previous=STARTING] 
+[2020-07-02 01:06:19] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-CONFIG/192.168.31.179:interview-config:8083: registering service... 
+[2020-07-02 01:06:19] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8083"] 
+[2020-07-02 01:06:19] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-CONFIG/192.168.31.179:interview-config:8083 - registration status: 204 
+[2020-07-02 01:06:19] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8083 (http) with context path '' 
+[2020-07-02 01:06:19] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8083 
+[2020-07-02 01:06:19] [main] com.study.interview.ConfigServerApplication 61 - Started ConfigServerApplication in 4.965 seconds (JVM running for 5.415) 
+[2020-07-02 01:11:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 01:12:37] [http-nio-8083-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-07-02 01:12:37] [http-nio-8083-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-07-02 01:12:37] [http-nio-8083-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 9 ms 
+[2020-07-02 01:14:36] [http-nio-8083-exec-5] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-7769749785148467215/interview-repos/application.yml 
+[2020-07-02 01:16:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 01:16:28] [http-nio-8083-exec-9] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-7769749785148467215/interview-repos/interview-config.yml 
+[2020-07-02 01:16:28] [http-nio-8083-exec-9] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-7769749785148467215/interview-repos/application.yml 
+[2020-07-02 01:18:55] [http-nio-8083-exec-2] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-7769749785148467215/interview-repos/interview-config.yml 
+[2020-07-02 01:18:55] [http-nio-8083-exec-2] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-7769749785148467215/interview-repos/application.yml 
+[2020-07-02 01:19:58] [http-nio-8083-exec-6] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-7769749785148467215/interview-repos/interview-config.yml 
+[2020-07-02 01:19:58] [http-nio-8083-exec-6] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-7769749785148467215/interview-repos/application.yml 
+[2020-07-02 01:21:02] [http-nio-8083-exec-9] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-7769749785148467215/interview-repos/application.yml 
+[2020-07-02 01:21:19] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 01:21:24] [http-nio-8083-exec-2] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-7769749785148467215/interview-repos/application.yml 
+[2020-07-02 01:23:53] [main] com.study.interview.ConfigServerApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-07-02 01:23:55] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=d71406ae-3b98-321b-8f37-36327de9d3ab 
+[2020-07-02 01:23:56] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8083 (http) 
+[2020-07-02 01:23:56] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8083"] 
+[2020-07-02 01:23:56] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-07-02 01:23:56] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-07-02 01:23:56] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-07-02 01:23:56] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 2353 ms 
+[2020-07-02 01:23:56] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 01:23:56] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@22eaa86e 
+[2020-07-02 01:23:56] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-07-02 01:23:56] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-07-02 01:23:58] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-07-02 01:23:58] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-07-02 01:23:58] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-07-02 01:23:59] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-07-02 01:23:59] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-07-02 01:23:59] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-07-02 01:23:59] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593624239161 with initial instances count: 2 
+[2020-07-02 01:23:59] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-CONFIG with eureka with status UP 
+[2020-07-02 01:23:59] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593624239164, current=UP, previous=STARTING] 
+[2020-07-02 01:23:59] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-CONFIG/192.168.31.179:interview-config:8083: registering service... 
+[2020-07-02 01:23:59] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8083"] 
+[2020-07-02 01:23:59] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-CONFIG/192.168.31.179:interview-config:8083 - registration status: 204 
+[2020-07-02 01:23:59] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8083 (http) with context path '' 
+[2020-07-02 01:23:59] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8083 
+[2020-07-02 01:23:59] [main] com.study.interview.ConfigServerApplication 61 - Started ConfigServerApplication in 7.254 seconds (JVM running for 7.951) 
+[2020-07-02 01:24:09] [http-nio-8083-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-07-02 01:24:09] [http-nio-8083-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-07-02 01:24:09] [http-nio-8083-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 10 ms 
+[2020-07-02 01:24:14] [http-nio-8083-exec-1] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/interview-prod.yml 
+[2020-07-02 01:24:14] [http-nio-8083-exec-1] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/application.yml 
+[2020-07-02 01:24:39] [http-nio-8083-exec-3] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/interview-prod.yml 
+[2020-07-02 01:24:39] [http-nio-8083-exec-3] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/application.yml 
+[2020-07-02 01:25:22] [http-nio-8083-exec-5] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/interview-prod.yml 
+[2020-07-02 01:25:22] [http-nio-8083-exec-5] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/application.yml 
+[2020-07-02 01:26:22] [http-nio-8083-exec-7] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/interview-prod.yml 
+[2020-07-02 01:26:22] [http-nio-8083-exec-7] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/application.yml 
+[2020-07-02 01:26:57] [http-nio-8083-exec-9] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/interview-prod.yml 
+[2020-07-02 01:26:57] [http-nio-8083-exec-9] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/application.yml 
+[2020-07-02 01:28:58] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 01:33:33] [http-nio-8083-exec-2] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/interview-prod.yml 
+[2020-07-02 01:33:33] [http-nio-8083-exec-2] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/application.yml 
+[2020-07-02 01:33:38] [http-nio-8083-exec-3] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/interview-prod.yml 
+[2020-07-02 01:33:38] [http-nio-8083-exec-3] org.springframework.cloud.config.server.environment.NativeEnvironmentRepository 278 - Adding property source: file:/var/folders/wd/k_924s2d5235_ybcmg776p7w0000gn/T/config-repo-3928949286132361706/interview-repos/application.yml 
+[2020-07-02 01:33:58] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 01:38:58] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-07-02 01:43:58] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 

@@ -1,0 +1,648 @@
+[2020-06-30 11:39:50] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:39:51] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=c07c49f1-ef8c-3e7b-80e6-958d42ebff0f 
+[2020-06-30 11:39:51] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.feign.ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:39:51] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:39:51] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:39:51] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:39:51] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:39:51] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:39:51] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1569 ms 
+[2020-06-30 11:39:51] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:39:51] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5c448433 
+[2020-06-30 11:39:52] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:39:52] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:39:53] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:39:53] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593488393752 with initial instances count: 0 
+[2020-06-30 11:39:53] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:39:53] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593488393755, current=UP, previous=STARTING] 
+[2020-06-30 11:39:53] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:39:53] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:39:53] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8082 (http) with context path '' 
+[2020-06-30 11:39:53] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8082 
+[2020-06-30 11:39:53] [main] com.study.interview.eureka.EurekaClientApplication 61 - Started EurekaClientApplication in 4.565 seconds (JVM running for 5.058) 
+[2020-06-30 11:40:36] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:40:38] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=c07c49f1-ef8c-3e7b-80e6-958d42ebff0f 
+[2020-06-30 11:40:38] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.feign.ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:40:38] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:40:38] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:40:38] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:40:38] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:40:38] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:40:38] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1990 ms 
+[2020-06-30 11:40:38] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:40:38] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3a08078c 
+[2020-06-30 11:40:39] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:40:40] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:40:41] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:40:41] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-06-30 11:40:41] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-06-30 11:41:07] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:41:08] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=c07c49f1-ef8c-3e7b-80e6-958d42ebff0f 
+[2020-06-30 11:41:08] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.feign.ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:41:08] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:41:08] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:41:08] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:41:08] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:41:08] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:41:08] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1456 ms 
+[2020-06-30 11:41:09] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:41:09] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2a2843ec 
+[2020-06-30 11:41:09] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:41:09] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:41:10] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:41:10] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 1342 - Not registering with Eureka server per configuration 
+[2020-06-30 11:41:10] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593488470824 with initial instances count: 1 
+[2020-06-30 11:41:10] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:41:10] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:41:10] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8082 (http) with context path '' 
+[2020-06-30 11:41:10] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8082 
+[2020-06-30 11:41:10] [main] com.study.interview.eureka.EurekaClientApplication 61 - Started EurekaClientApplication in 4.314 seconds (JVM running for 4.723) 
+[2020-06-30 11:42:29] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:42:30] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=c07c49f1-ef8c-3e7b-80e6-958d42ebff0f 
+[2020-06-30 11:42:30] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.feign.ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:42:31] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:42:31] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:42:31] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:42:31] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:42:31] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:42:31] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1485 ms 
+[2020-06-30 11:42:31] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:42:31] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3c69362a 
+[2020-06-30 11:42:31] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:42:31] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:42:32] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:42:32] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593488552991 with initial instances count: 1 
+[2020-06-30 11:42:32] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:42:32] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593488552994, current=UP, previous=STARTING] 
+[2020-06-30 11:42:32] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:42:32] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:42:33] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8082 (http) with context path '' 
+[2020-06-30 11:42:33] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8082 
+[2020-06-30 11:42:33] [main] com.study.interview.eureka.EurekaClientApplication 61 - Started EurekaClientApplication in 4.16 seconds (JVM running for 4.581) 
+[2020-06-30 11:42:33] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:42:48] [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-30 11:42:48] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-30 11:42:48] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms 
+[2020-06-30 11:42:57] [http-nio-8082-exec-5] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:42:57] [http-nio-8082-exec-5] com.netflix.util.concurrent.ShutdownEnabledTimer 58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-interview-erueka-client 
+[2020-06-30 11:42:57] [http-nio-8082-exec-5] com.netflix.loadbalancer.BaseLoadBalancer 197 - Client: interview-erueka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-06-30 11:42:57] [http-nio-8082-exec-5] com.netflix.loadbalancer.DynamicServerListLoadBalancer 222 - Using serverListUpdater PollingServerListUpdater 
+[2020-06-30 11:42:57] [http-nio-8082-exec-5] com.netflix.loadbalancer.DynamicServerListLoadBalancer 150 - DynamicServerListLoadBalancer for client interview-erueka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@52a3a824 
+[2020-06-30 11:43:28] [PollingServerListUpdater-0] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:44:35] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:44:37] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=c07c49f1-ef8c-3e7b-80e6-958d42ebff0f 
+[2020-06-30 11:44:37] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.feign.ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:44:37] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:44:37] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:44:37] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:44:37] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:44:37] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:44:37] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1802 ms 
+[2020-06-30 11:44:37] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:44:37] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2af46afd 
+[2020-06-30 11:44:38] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:44:38] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:44:38] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:44:39] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593488679614 with initial instances count: 2 
+[2020-06-30 11:44:39] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:44:39] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593488679617, current=UP, previous=STARTING] 
+[2020-06-30 11:44:39] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:44:39] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:44:39] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:44:39] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8082 (http) with context path '' 
+[2020-06-30 11:44:39] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8082 
+[2020-06-30 11:44:39] [main] com.study.interview.eureka.EurekaClientApplication 61 - Started EurekaClientApplication in 4.813 seconds (JVM running for 5.222) 
+[2020-06-30 11:45:03] [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-30 11:45:03] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-30 11:45:03] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms 
+[2020-06-30 11:45:03] [http-nio-8082-exec-1] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:45:03] [http-nio-8082-exec-1] com.netflix.util.concurrent.ShutdownEnabledTimer 58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-interview-erueka-client 
+[2020-06-30 11:45:03] [http-nio-8082-exec-1] com.netflix.loadbalancer.BaseLoadBalancer 197 - Client: interview-erueka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-06-30 11:45:03] [http-nio-8082-exec-1] com.netflix.loadbalancer.DynamicServerListLoadBalancer 222 - Using serverListUpdater PollingServerListUpdater 
+[2020-06-30 11:45:03] [http-nio-8082-exec-1] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:45:03] [http-nio-8082-exec-1] com.netflix.loadbalancer.DynamicServerListLoadBalancer 150 - DynamicServerListLoadBalancer for client interview-erueka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[192.168.31.179:8082],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.31.179:8082;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@21160a56 
+[2020-06-30 11:45:04] [PollingServerListUpdater-0] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:45:30] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:45:31] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=c07c49f1-ef8c-3e7b-80e6-958d42ebff0f 
+[2020-06-30 11:45:31] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.feign.ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:45:31] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:45:31] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:45:31] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:45:31] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:45:31] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:45:31] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1581 ms 
+[2020-06-30 11:45:31] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:45:31] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@622fdb81 
+[2020-06-30 11:45:32] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:45:32] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:45:33] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:45:33] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593488733963 with initial instances count: 2 
+[2020-06-30 11:45:33] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:45:33] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593488733966, current=UP, previous=STARTING] 
+[2020-06-30 11:45:33] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:45:33] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:45:34] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:45:34] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:45:34] [main] com.netflix.discovery.DiscoveryClient 909 - Shutting down DiscoveryClient ... 
+[2020-06-30 11:45:37] [main] com.netflix.discovery.DiscoveryClient 945 - Unregistering ... 
+[2020-06-30 11:45:37] [main] com.netflix.discovery.DiscoveryClient 947 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - deregister  status: 200 
+[2020-06-30 11:45:37] [main] com.netflix.discovery.DiscoveryClient 934 - Completed shut down of DiscoveryClient 
+[2020-06-30 11:45:37] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Pausing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:45:37] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-06-30 11:45:37] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Stopping ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:45:37] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Destroying ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:45:37] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-06-30 11:45:39] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 871 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - Re-registering apps/INTERVIEW-ERUEKA-CLIENT 
+[2020-06-30 11:45:39] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:45:39] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:46:55] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:46:56] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=c07c49f1-ef8c-3e7b-80e6-958d42ebff0f 
+[2020-06-30 11:46:56] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.feign.ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:46:57] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:46:57] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:46:57] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:46:57] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:46:57] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:46:57] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1640 ms 
+[2020-06-30 11:46:57] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:46:57] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2123064f 
+[2020-06-30 11:46:57] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:46:57] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:46:58] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:46:58] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:46:58] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:46:59] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:46:59] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:46:59] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:46:59] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593488819061 with initial instances count: 2 
+[2020-06-30 11:46:59] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:46:59] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593488819064, current=UP, previous=STARTING] 
+[2020-06-30 11:46:59] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:46:59] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:46:59] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:46:59] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:46:59] [main] com.netflix.discovery.DiscoveryClient 909 - Shutting down DiscoveryClient ... 
+[2020-06-30 11:47:02] [main] com.netflix.discovery.DiscoveryClient 945 - Unregistering ... 
+[2020-06-30 11:47:02] [main] com.netflix.discovery.DiscoveryClient 947 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - deregister  status: 200 
+[2020-06-30 11:47:02] [main] com.netflix.discovery.DiscoveryClient 934 - Completed shut down of DiscoveryClient 
+[2020-06-30 11:47:02] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Pausing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:47:02] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-06-30 11:47:02] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Stopping ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:47:02] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Destroying ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:47:02] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-06-30 11:47:09] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 871 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - Re-registering apps/INTERVIEW-ERUEKA-CLIENT 
+[2020-06-30 11:47:09] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:47:09] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:47:47] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:47:48] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=c07c49f1-ef8c-3e7b-80e6-958d42ebff0f 
+[2020-06-30 11:47:48] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.feign.ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:47:48] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:47:48] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:47:48] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:47:48] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:47:48] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:47:48] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1451 ms 
+[2020-06-30 11:47:48] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:47:48] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@158f4cfe 
+[2020-06-30 11:47:49] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:47:49] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:47:49] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:47:49] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:47:49] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593488870469 with initial instances count: 2 
+[2020-06-30 11:47:50] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:47:50] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593488870476, current=UP, previous=STARTING] 
+[2020-06-30 11:47:50] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:47:50] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:47:50] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:47:50] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8082 (http) with context path '' 
+[2020-06-30 11:47:50] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8082 
+[2020-06-30 11:47:50] [main] com.study.interview.eureka.EurekaClientApplication 61 - Started EurekaClientApplication in 4.095 seconds (JVM running for 4.522) 
+[2020-06-30 11:47:59] [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-30 11:47:59] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-30 11:47:59] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms 
+[2020-06-30 11:47:59] [http-nio-8082-exec-1] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:47:59] [http-nio-8082-exec-1] com.netflix.util.concurrent.ShutdownEnabledTimer 58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-interview-erueka-client 
+[2020-06-30 11:47:59] [http-nio-8082-exec-1] com.netflix.loadbalancer.BaseLoadBalancer 197 - Client: interview-erueka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-06-30 11:47:59] [http-nio-8082-exec-1] com.netflix.loadbalancer.DynamicServerListLoadBalancer 222 - Using serverListUpdater PollingServerListUpdater 
+[2020-06-30 11:48:00] [http-nio-8082-exec-1] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:48:00] [http-nio-8082-exec-1] com.netflix.loadbalancer.DynamicServerListLoadBalancer 150 - DynamicServerListLoadBalancer for client interview-erueka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[192.168.31.179:8082],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.31.179:8082;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@59fe9fbe 
+[2020-06-30 11:48:00] [PollingServerListUpdater-0] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:53:37] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:53:38] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=6be88aee-77e7-3787-8b0a-2b601772e6ce 
+[2020-06-30 11:53:38] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.EurekaClientApplication$ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:53:39] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:53:39] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:53:39] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:53:39] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:53:39] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:53:39] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1435 ms 
+[2020-06-30 11:53:39] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:53:39] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@690bc15e 
+[2020-06-30 11:53:39] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:53:39] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:53:40] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:53:40] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:53:40] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:53:41] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:53:41] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:53:41] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:53:41] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593489221117 with initial instances count: 2 
+[2020-06-30 11:53:41] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:53:41] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593489221123, current=UP, previous=STARTING] 
+[2020-06-30 11:53:41] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:53:41] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:53:41] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8082 (http) with context path '' 
+[2020-06-30 11:53:41] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:53:41] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8082 
+[2020-06-30 11:53:41] [main] com.study.interview.eureka.EurekaClientApplication 61 - Started EurekaClientApplication in 4.225 seconds (JVM running for 4.659) 
+[2020-06-30 11:53:48] [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-30 11:53:48] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-30 11:53:48] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms 
+[2020-06-30 11:54:47] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:54:48] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=6be88aee-77e7-3787-8b0a-2b601772e6ce 
+[2020-06-30 11:54:48] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.EurekaClientApplication$ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:54:48] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:54:48] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:54:48] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:54:48] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:54:49] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:54:49] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1588 ms 
+[2020-06-30 11:54:49] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:54:49] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@78010562 
+[2020-06-30 11:54:49] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:54:49] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:54:50] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:54:50] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:54:50] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:54:51] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:54:51] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:54:51] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:54:51] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593489291041 with initial instances count: 2 
+[2020-06-30 11:54:51] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:54:51] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593489291044, current=UP, previous=STARTING] 
+[2020-06-30 11:54:51] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:54:51] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:54:51] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:54:51] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:54:51] [main] com.netflix.discovery.DiscoveryClient 909 - Shutting down DiscoveryClient ... 
+[2020-06-30 11:54:54] [main] com.netflix.discovery.DiscoveryClient 945 - Unregistering ... 
+[2020-06-30 11:54:54] [main] com.netflix.discovery.DiscoveryClient 947 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - deregister  status: 200 
+[2020-06-30 11:54:54] [main] com.netflix.discovery.DiscoveryClient 934 - Completed shut down of DiscoveryClient 
+[2020-06-30 11:54:54] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Pausing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:54:54] [main] org.apache.catalina.core.StandardService 173 - Stopping service [Tomcat] 
+[2020-06-30 11:54:54] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Stopping ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:54:54] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Destroying ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:54:54] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[2020-06-30 11:55:20] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:55:21] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=6be88aee-77e7-3787-8b0a-2b601772e6ce 
+[2020-06-30 11:55:21] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.EurekaClientApplication$ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:55:22] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:55:22] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:55:22] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:55:22] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:55:22] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:55:22] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1557 ms 
+[2020-06-30 11:55:22] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:55:22] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7d9ba6c 
+[2020-06-30 11:55:22] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:55:22] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:55:23] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:55:23] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:55:23] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:55:23] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:55:23] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:55:23] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:55:23] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:55:23] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593489324177 with initial instances count: 1 
+[2020-06-30 11:55:24] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:55:24] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593489324180, current=UP, previous=STARTING] 
+[2020-06-30 11:55:24] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:55:24] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:55:24] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:55:24] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8082 (http) with context path '' 
+[2020-06-30 11:55:24] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8082 
+[2020-06-30 11:55:24] [main] com.study.interview.eureka.EurekaClientApplication 61 - Started EurekaClientApplication in 4.463 seconds (JVM running for 4.92) 
+[2020-06-30 11:55:38] [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-30 11:55:38] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-30 11:55:38] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms 
+[2020-06-30 11:55:43] [http-nio-8082-exec-2] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:55:43] [http-nio-8082-exec-2] com.netflix.util.concurrent.ShutdownEnabledTimer 58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-interview-erueka-client 
+[2020-06-30 11:55:43] [http-nio-8082-exec-2] com.netflix.loadbalancer.BaseLoadBalancer 197 - Client: interview-erueka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-06-30 11:55:43] [http-nio-8082-exec-2] com.netflix.loadbalancer.DynamicServerListLoadBalancer 222 - Using serverListUpdater PollingServerListUpdater 
+[2020-06-30 11:55:43] [http-nio-8082-exec-2] com.netflix.loadbalancer.DynamicServerListLoadBalancer 150 - DynamicServerListLoadBalancer for client interview-erueka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@794f1bbc 
+[2020-06-30 11:56:23] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:56:24] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=6be88aee-77e7-3787-8b0a-2b601772e6ce 
+[2020-06-30 11:56:24] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.EurekaClientApplication$ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:56:24] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:56:24] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:56:24] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:56:24] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:56:24] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:56:24] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1402 ms 
+[2020-06-30 11:56:24] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:56:24] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2016f509 
+[2020-06-30 11:56:24] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:56:24] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:56:25] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:56:25] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:56:25] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:56:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:56:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:56:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:56:25] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593489386253 with initial instances count: 2 
+[2020-06-30 11:56:26] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:56:26] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593489386256, current=UP, previous=STARTING] 
+[2020-06-30 11:56:26] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:56:26] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:56:26] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:56:26] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8082 (http) with context path '' 
+[2020-06-30 11:56:26] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8082 
+[2020-06-30 11:56:26] [main] com.study.interview.eureka.EurekaClientApplication 61 - Started EurekaClientApplication in 4.172 seconds (JVM running for 4.571) 
+[2020-06-30 11:56:36] [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-30 11:56:36] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-30 11:56:36] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms 
+[2020-06-30 11:56:36] [http-nio-8082-exec-1] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:56:36] [http-nio-8082-exec-1] com.netflix.util.concurrent.ShutdownEnabledTimer 58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-interview-erueka-client 
+[2020-06-30 11:56:36] [http-nio-8082-exec-1] com.netflix.loadbalancer.BaseLoadBalancer 197 - Client: interview-erueka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-06-30 11:56:36] [http-nio-8082-exec-1] com.netflix.loadbalancer.DynamicServerListLoadBalancer 222 - Using serverListUpdater PollingServerListUpdater 
+[2020-06-30 11:56:36] [http-nio-8082-exec-1] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:56:36] [http-nio-8082-exec-1] com.netflix.loadbalancer.DynamicServerListLoadBalancer 150 - DynamicServerListLoadBalancer for client interview-erueka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[192.168.31.179:8082],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.31.179:8082;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@16b5db19 
+[2020-06-30 11:56:37] [PollingServerListUpdater-0] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:57:23] [main] com.study.interview.eureka.EurekaClientApplication 651 - No active profile set, falling back to default profiles: default 
+[2020-06-30 11:57:24] [main] org.springframework.cloud.context.scope.GenericScope 295 - BeanFactory id=6be88aee-77e7-3787-8b0a-2b601772e6ce 
+[2020-06-30 11:57:24] [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'com.study.interview.eureka.EurekaClientApplication$ClientFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[2020-06-30 11:57:24] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8082 (http) 
+[2020-06-30 11:57:24] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:57:24] [main] org.apache.catalina.core.StandardService 173 - Starting service [Tomcat] 
+[2020-06-30 11:57:24] [main] org.apache.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.35] 
+[2020-06-30 11:57:24] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext 
+[2020-06-30 11:57:24] [main] org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1554 ms 
+[2020-06-30 11:57:25] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:57:25] [main] com.netflix.config.DynamicPropertyFactory 281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@ebd06a9 
+[2020-06-30 11:57:25] [main] com.netflix.config.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[2020-06-30 11:57:25] [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor' 
+[2020-06-30 11:57:26] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator' 
+[2020-06-30 11:57:26] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory 72 - Setting initial instance status as: STARTING 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 368 - Initializing Eureka in region us-east-1 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 981 - Disable delta property : false 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 982 - Single vip registry refresh property : null 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 983 - Force full registry fetch : false 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 984 - Application is null : false 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 985 - Registered Applications size is zero : true 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 987 - Application version is -1: true 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 1070 - Getting all instance registry info from the eureka server 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 1079 - The response status is 200 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 1294 - Starting heartbeat executor: renew interval is: 30 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 468 - Discovery Client initialized at timestamp 1593489446761 with initial instances count: 2 
+[2020-06-30 11:57:26] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry 41 - Registering application INTERVIEW-ERUEKA-CLIENT with eureka with status UP 
+[2020-06-30 11:57:26] [main] com.netflix.discovery.DiscoveryClient 1330 - Saw local status change event StatusChangeEvent [timestamp=1593489446764, current=UP, previous=STARTING] 
+[2020-06-30 11:57:26] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 11:57:26] [main] org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8082"] 
+[2020-06-30 11:57:26] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 11:57:26] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8082 (http) with context path '' 
+[2020-06-30 11:57:26] [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration 145 - Updating port to 8082 
+[2020-06-30 11:57:26] [main] com.study.interview.eureka.EurekaClientApplication 61 - Started EurekaClientApplication in 4.479 seconds (JVM running for 4.898) 
+[2020-06-30 11:57:31] [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[2020-06-30 11:57:31] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet' 
+[2020-06-30 11:57:31] [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms 
+[2020-06-30 11:57:31] [http-nio-8082-exec-1] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:57:31] [http-nio-8082-exec-1] com.netflix.util.concurrent.ShutdownEnabledTimer 58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-interview-erueka-client 
+[2020-06-30 11:57:31] [http-nio-8082-exec-1] com.netflix.loadbalancer.BaseLoadBalancer 197 - Client: interview-erueka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null 
+[2020-06-30 11:57:31] [http-nio-8082-exec-1] com.netflix.loadbalancer.DynamicServerListLoadBalancer 222 - Using serverListUpdater PollingServerListUpdater 
+[2020-06-30 11:57:31] [http-nio-8082-exec-1] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 11:57:31] [http-nio-8082-exec-1] com.netflix.loadbalancer.DynamicServerListLoadBalancer 150 - DynamicServerListLoadBalancer for client interview-erueka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=interview-erueka-client,current list of Servers=[192.168.31.179:8082],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.31.179:8082;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2e5126a8 
+[2020-06-30 11:57:32] [PollingServerListUpdater-0] com.netflix.config.ChainedDynamicProperty 115 - Flipping property: interview-erueka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647 
+[2020-06-30 12:02:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:07:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:12:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:17:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:22:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:27:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:32:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:37:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:42:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 12:47:26] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 13:57:56] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 871 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - Re-registering apps/INTERVIEW-ERUEKA-CLIENT 
+[2020-06-30 13:57:56] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 13:57:56] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 14:00:55] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:05:55] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:10:55] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:15:55] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:20:55] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:25:55] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:30:55] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:35:55] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 14:40:55] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 17:00:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 20:48:37] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 871 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - Re-registering apps/INTERVIEW-ERUEKA-CLIENT 
+[2020-06-30 20:48:37] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 20:48:37] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 20:55:42] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 871 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - Re-registering apps/INTERVIEW-ERUEKA-CLIENT 
+[2020-06-30 20:55:42] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 847 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082: registering service... 
+[2020-06-30 20:55:42] [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient 856 - DiscoveryClient_INTERVIEW-ERUEKA-CLIENT/192.168.31.179:interview-erueka-client:8082 - registration status: 204 
+[2020-06-30 20:56:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:01:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:06:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:11:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:16:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:21:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:26:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:31:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:36:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:41:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:46:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:51:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 21:56:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:01:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:06:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:11:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:16:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:21:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:26:20] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:44:53] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:49:53] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:54:53] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 22:59:53] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 23:04:53] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 23:09:53] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
+[2020-06-30 23:14:53] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration 
