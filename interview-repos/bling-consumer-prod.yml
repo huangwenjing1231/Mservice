@@ -7,3 +7,4 @@ eureka:
     fetch-registry: true
   instance:
     prefer-ip-address: true
+name: huangwenjing
